@@ -29,8 +29,6 @@ cd ..
 
 echo 'Building Electron'
 cd app
-pnpm run build:export
-echo "build export assets"
 pnpm run dist-darwin
 echo 'Building Electron arm64'
 pnpm run dist-darwin-arm64

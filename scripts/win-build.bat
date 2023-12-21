@@ -5,9 +5,6 @@ echo 'Building UI'
 cd app
 call pnpm install
 call pnpm run build
-call pnpm run build:export
-echo "build export assets"
-
 cd ..
 
 echo 'Cleaning Builds'
@@ -35,6 +32,7 @@ cd ..
 echo 'Building Electron'
 cd app
 call pnpm run dist
+
 cd ..
 
 echo 'Building Appx'

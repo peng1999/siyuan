@@ -24,7 +24,5 @@ cd ..
 
 echo 'Building Electron'
 cd app
-pnpm run build:export
-echo "build export assets"
 pnpm run dist-linux
 cd ..
